@@ -28,3 +28,7 @@ float32 period_max
 float32 stamp_delay_mean
 float32 stamp_delay_variance
 float32 stamp_delay_max
+
+# counter of times, that the period or delay have changed.
+int32 changes_period
+int32 changes_delay
